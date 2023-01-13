@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bubblegum Sans", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8cd8e6;
+  color: midnightblue;
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 15px;
+  color: midnightblue;
+  width: 150px;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: cyan;
+  box-shadow: 5px 5px 10px mediumblue;
+}
+
+.traffic-light {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.traffic-light_red {
+  background-color: red;
+  box-shadow: 5px 10px 10px red, 5px 15px 15px crimson, 1px 10px 5px midnightblue inset, 5px 5px 5px white inset, 5px 5px 5px white inset;
+}
+
+.traffic-light_yellow {
+  background-color: yellow;
+  box-shadow: 5px 10px 10px yellow, 5px 15px 15px yellowgreen, 1px 10px 5px midnightblue inset, 5px 5px 5px white inset, 5px 5px 5px white inset;
+}
+
+.traffic-light_green {
+  background-color: green;
+  box-shadow: 5px 10px 10px green, 5px 15px 15px limegreen, 1px 10px 5px midnightblue inset, 5px 5px 5px white inset, 5px 5px 5px white inset;
+}
